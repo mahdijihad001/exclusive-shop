@@ -1,10 +1,10 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { Link, useNavigate } from 'react-router-dom';
-import { useLogInUserMutation } from '../../Redux/Auth/authApi';
+import { useLogInUserMutation } from '../../../Redux/Auth/authApi';
 import Swal from 'sweetalert2';
 import { useDispatch } from 'react-redux';
-import { setUser } from '../../Redux/Auth/authSlice';
+import { setUser } from '../../../Redux/Auth/authSlice';
 
 const LoginForm = () => {
 
