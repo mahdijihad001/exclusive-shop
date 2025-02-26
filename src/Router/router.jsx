@@ -6,12 +6,11 @@ import Contact from "../Page/Contact/Contact"
 import Shop from "../Page/Shop.jsx/Shop"
 import Register from "../Page/Auth/Register"
 import LogIn from "../Page/Auth/LogIn"
-import  UserProfile  from "../Page/Auth/UserProfile/userProfile"
+import  UserProfile  from "../Page/Auth/UserProfile/UserProfile"
 import EditUser from "../Page/Auth/UserProfile/EditUser"
 import ProductDetail from "../Page/Product/ProductDetail"
 import UserProtector from "../Components/PraivetRoute/UserProtector"
 import Dashboard from "../Page/Dashboard/Dashboard/Dashboard"
-import Overview from "../Page/Dashboard/Dashboard/DashboardHome"
 import DashboardHome from "../Page/Dashboard/Dashboard/DashboardHome"
 
 const router = createBrowserRouter([
