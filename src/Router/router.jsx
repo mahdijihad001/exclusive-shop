@@ -6,7 +6,6 @@ import Contact from "../Page/Contact/Contact"
 import Shop from "../Page/Shop.jsx/Shop"
 import Register from "../Page/Auth/Register"
 import LogIn from "../Page/Auth/LogIn"
-import  UserProfile  from "../Page/Auth/UserProfile/UserProfile"
 import EditUser from "../Page/Auth/UserProfile/EditUser"
 import ProductDetail from "../Page/Product/ProductDetail"
 import UserProtector from "../Components/PraivetRoute/UserProtector"
@@ -42,10 +41,6 @@ const router = createBrowserRouter([
             {
                 path : "/login",
                 element : <LogIn/>
-            },
-            {
-                path : "/user/:id",
-                element : <UserProfile/>
             },
             {
                 path : "/user/edit/:id",
